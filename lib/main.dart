@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               HeroSection('assets/images/semarang.jpg'),
+              MyContainer(),
             ],
           ),
         ),

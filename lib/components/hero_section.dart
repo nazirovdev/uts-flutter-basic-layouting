@@ -11,3 +11,10 @@ Widget HeroSection(String imgUrl) {
     ),
   );
 }
+
+Widget MyContainer() {
+  return Padding(
+    padding: EdgeInsets.all(18.0),
+    child: Column(),
+  );
+}
