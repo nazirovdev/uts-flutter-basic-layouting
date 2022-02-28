@@ -2,7 +2,7 @@
 
 ## Description
 
-repositori ini digunakan sebagai tugas pada matakuliah Pemrograman web. Didalam repo ini saya membuat layout mobile app sederhana menggunakan flutter dengan mengimplementasikan materi-materi sebelumnya yang sudah pernah dibahas oleh dosen pengampu.
+repositori ini digunakan sebagai tugas pada matakuliah Pemrograman Mobile 1. Didalam repo ini saya membuat layout mobile app sederhana menggunakan flutter dengan mengimplementasikan materi-materi sebelumnya yang sudah pernah dibahas oleh dosen pengampu.
 
 ## Getting Started
 
