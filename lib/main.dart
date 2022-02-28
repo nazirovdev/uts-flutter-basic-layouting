@@ -12,7 +12,13 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               HeroSection('assets/images/semarang.jpg'),
-              MyContainer(),
+              MyContainer(
+                titleSection: TitleSection(
+                  name: 'Lawang Sewu',
+                  location: 'Semarang, Jawa Tengah',
+                  rating: 5.0,
+                ),
+              ),
             ],
           ),
         ),

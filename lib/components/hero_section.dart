@@ -12,9 +12,64 @@ Widget HeroSection(String imgUrl) {
   );
 }
 
-Widget MyContainer() {
+Widget MyContainer({
+  required Widget titleSection,
+}) {
   return Padding(
     padding: EdgeInsets.all(18.0),
-    child: Column(),
+    child: Column(
+      children: [
+        titleSection,
+        SizedBox(
+          height: 20,
+        ),
+      ],
+    ),
+  );
+}
+
+Widget TitleSection({
+  required String name,
+  required String location,
+  required double rating,
+}) {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: [
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            name,
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(
+            height: 7,
+          ),
+          Text(location),
+        ],
+      ),
+      Row(
+        children: [
+          Icon(
+            Icons.favorite,
+            color: Colors.amber,
+          ),
+          SizedBox(
+            width: 4.5,
+          ),
+          Text(
+            rating.toString(),
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
+      )
+    ],
   );
 }
