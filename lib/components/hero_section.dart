@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// hero section
 Widget HeroSection(String imgUrl) {
   return Container(
     width: double.infinity,
@@ -12,8 +13,10 @@ Widget HeroSection(String imgUrl) {
   );
 }
 
+// MyContainer
 Widget MyContainer({
   required Widget titleSection,
+  required Widget buttonSection,
 }) {
   return Padding(
     padding: EdgeInsets.all(18.0),
@@ -23,11 +26,13 @@ Widget MyContainer({
         SizedBox(
           height: 20,
         ),
+        buttonSection,
       ],
     ),
   );
 }
 
+// title section
 Widget TitleSection({
   required String name,
   required String location,
@@ -71,5 +76,44 @@ Widget TitleSection({
         ],
       )
     ],
+  );
+}
+
+// button section
+List<Map> myIcons = [
+  {
+    'icon': Icon(
+      Icons.favorite,
+    ),
+    'text': Text('CALL'),
+  },
+  {
+    'icon': Icon(
+      Icons.favorite,
+    ),
+    'text': Text('ROUTE'),
+  },
+  {
+    'icon': Icon(
+      Icons.favorite,
+    ),
+    'text': Text('SHARE'),
+  },
+];
+
+Widget ButtonSection() {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceAround,
+    children: myIcons.map((myIcon) {
+      return Column(
+        children: [
+          myIcon['icon'],
+          SizedBox(
+            height: 10,
+          ),
+          myIcon['text'],
+        ],
+      );
+    }).toList(),
   );
 }

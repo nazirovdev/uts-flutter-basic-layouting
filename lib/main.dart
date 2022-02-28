@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
                   location: 'Semarang, Jawa Tengah',
                   rating: 5.0,
                 ),
+                buttonSection: ButtonSection(),
               ),
             ],
           ),
