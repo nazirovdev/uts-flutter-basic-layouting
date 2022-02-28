@@ -14,3 +14,7 @@ repositori ini digunakan sebagai tugas pada matakuliah Pemrograman Mobile 1. Did
 ## Author
 
 Muhammad Nazirov Azhari
+
+## Preview
+
+![alt Preview](https://github.com/nazirovdev/uts-flutter-basic-layouting/blob/main/result_preview.gif?raw=true)
