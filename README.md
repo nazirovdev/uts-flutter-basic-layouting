@@ -1,20 +1,16 @@
 # uts_flutter_basic_layouting
 
-A new Flutter project.
+## Description
+
+repositori ini digunakan sebagai tugas pada matakuliah Pemrograman web. Didalam repo ini saya membuat layout mobile app sederhana menggunakan flutter dengan mengimplementasikan materi-materi sebelumnya yang sudah pernah dibahas oleh dosen pengampu.
+
+## Getting Started
+
+1. clone project ini.
+2. ketik `flutter pub get`.
+3. jalankan di device anda.
+4. selesai.
 
 ## Author
 
 Muhammad Nazirov Azhari
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
--   [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
--   [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
